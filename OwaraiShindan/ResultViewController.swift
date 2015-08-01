@@ -38,6 +38,8 @@ class ResultViewController: UIViewController, UIAlertViewDelegate {
             messageLabel.text = "お笑いで世界征服ができる級！"
         }
         
+        // 動画にはないが、もしテキストフィールドに名前が入力されていなかった場合は
+        // 「あなた」を適用するように記述する
         if aD.name.isEmpty {
             aD.name = "あなた"
         }
